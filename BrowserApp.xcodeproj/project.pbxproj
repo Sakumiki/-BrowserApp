@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1C3CE31D84469E00C6F778 /* AsyncKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE21D84469E00C6F778 /* AsyncKit.framework */; };
+		FC1C3CEE1D8446A800C6F778 /* BWWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE41D8446A700C6F778 /* BWWalkthrough.framework */; };
+		FC1C3CEF1D8446A800C6F778 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE51D8446A800C6F778 /* DZNEmptyDataSet.framework */; };
+		FC1C3CF01D8446A800C6F778 /* KCFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE61D8446A800C6F778 /* KCFloatingActionButton.framework */; };
+		FC1C3CF11D8446A800C6F778 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE71D8446A800C6F778 /* NVActivityIndicatorView.framework */; };
+		FC1C3CF21D8446A800C6F778 /* PermissionScope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE81D8446A800C6F778 /* PermissionScope.framework */; };
+		FC1C3CF31D8446A800C6F778 /* Pods_BrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CE91D8446A800C6F778 /* Pods_BrowserApp.framework */; };
+		FC1C3CF41D8446A800C6F778 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CEA1D8446A800C6F778 /* Realm.framework */; };
+		FC1C3CF51D8446A800C6F778 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CEB1D8446A800C6F778 /* RealmSwift.framework */; };
+		FC1C3CF61D8446A800C6F778 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CEC1D8446A800C6F778 /* SnapKit.framework */; };
+		FC1C3CF71D8446A800C6F778 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CED1D8446A800C6F778 /* Spring.framework */; };
+		FC1C3CF91D8446B100C6F778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CF81D8446B100C6F778 /* UIKit.framework */; };
+		FC1C3CFB1D8446BB00C6F778 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFA1D8446BB00C6F778 /* WebKit.framework */; };
 		FC3719561D83BC140098B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719551D83BC140098B3D9 /* AppDelegate.swift */; };
 		FC3719581D83BC140098B3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719571D83BC140098B3D9 /* ViewController.swift */; };
 		FC37195B1D83BC140098B3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3719591D83BC140098B3D9 /* Main.storyboard */; };
@@ -34,6 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1C3CE21D84469E00C6F778 /* AsyncKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncKit.framework; path = "Pods/../build/Debug-iphoneos/AsyncKit.framework"; sourceTree = "<group>"; };
+		FC1C3CE41D8446A700C6F778 /* BWWalkthrough.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWWalkthrough.framework; path = "Pods/../build/Debug-iphoneos/BWWalkthrough.framework"; sourceTree = "<group>"; };
+		FC1C3CE51D8446A800C6F778 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = "Pods/../build/Debug-iphoneos/DZNEmptyDataSet.framework"; sourceTree = "<group>"; };
+		FC1C3CE61D8446A800C6F778 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCFloatingActionButton.framework; path = "Pods/../build/Debug-iphoneos/KCFloatingActionButton.framework"; sourceTree = "<group>"; };
+		FC1C3CE71D8446A800C6F778 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = "Pods/../build/Debug-iphoneos/NVActivityIndicatorView.framework"; sourceTree = "<group>"; };
+		FC1C3CE81D8446A800C6F778 /* PermissionScope.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PermissionScope.framework; path = "Pods/../build/Debug-iphoneos/PermissionScope.framework"; sourceTree = "<group>"; };
+		FC1C3CE91D8446A800C6F778 /* Pods_BrowserApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_BrowserApp.framework; path = "Pods/../build/Debug-iphoneos/Pods_BrowserApp.framework"; sourceTree = "<group>"; };
+		FC1C3CEA1D8446A800C6F778 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm.framework"; sourceTree = "<group>"; };
+		FC1C3CEB1D8446A800C6F778 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Debug-iphoneos/RealmSwift.framework"; sourceTree = "<group>"; };
+		FC1C3CEC1D8446A800C6F778 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Pods/../build/Debug-iphoneos/SnapKit.framework"; sourceTree = "<group>"; };
+		FC1C3CED1D8446A800C6F778 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = "Pods/../build/Debug-iphoneos/Spring.framework"; sourceTree = "<group>"; };
+		FC1C3CF81D8446B100C6F778 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC1C3CFA1D8446BB00C6F778 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FC3719521D83BC140098B3D9 /* BrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3719551D83BC140098B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3719571D83BC140098B3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1C3CFB1D8446BB00C6F778 /* WebKit.framework in Frameworks */,
+				FC1C3CF91D8446B100C6F778 /* UIKit.framework in Frameworks */,
+				FC1C3CEE1D8446A800C6F778 /* BWWalkthrough.framework in Frameworks */,
+				FC1C3CEF1D8446A800C6F778 /* DZNEmptyDataSet.framework in Frameworks */,
+				FC1C3CF01D8446A800C6F778 /* KCFloatingActionButton.framework in Frameworks */,
+				FC1C3CF11D8446A800C6F778 /* NVActivityIndicatorView.framework in Frameworks */,
+				FC1C3CF21D8446A800C6F778 /* PermissionScope.framework in Frameworks */,
+				FC1C3CF31D8446A800C6F778 /* Pods_BrowserApp.framework in Frameworks */,
+				FC1C3CF41D8446A800C6F778 /* Realm.framework in Frameworks */,
+				FC1C3CF51D8446A800C6F778 /* RealmSwift.framework in Frameworks */,
+				FC1C3CF61D8446A800C6F778 /* SnapKit.framework in Frameworks */,
+				FC1C3CF71D8446A800C6F778 /* Spring.framework in Frameworks */,
+				FC1C3CE31D84469E00C6F778 /* AsyncKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +116,19 @@
 		FC3719491D83BC140098B3D9 = {
 			isa = PBXGroup;
 			children = (
+				FC1C3CFA1D8446BB00C6F778 /* WebKit.framework */,
+				FC1C3CF81D8446B100C6F778 /* UIKit.framework */,
+				FC1C3CE41D8446A700C6F778 /* BWWalkthrough.framework */,
+				FC1C3CE51D8446A800C6F778 /* DZNEmptyDataSet.framework */,
+				FC1C3CE61D8446A800C6F778 /* KCFloatingActionButton.framework */,
+				FC1C3CE71D8446A800C6F778 /* NVActivityIndicatorView.framework */,
+				FC1C3CE81D8446A800C6F778 /* PermissionScope.framework */,
+				FC1C3CE91D8446A800C6F778 /* Pods_BrowserApp.framework */,
+				FC1C3CEA1D8446A800C6F778 /* Realm.framework */,
+				FC1C3CEB1D8446A800C6F778 /* RealmSwift.framework */,
+				FC1C3CEC1D8446A800C6F778 /* SnapKit.framework */,
+				FC1C3CED1D8446A800C6F778 /* Spring.framework */,
+				FC1C3CE21D84469E00C6F778 /* AsyncKit.framework */,
 				FC3719541D83BC140098B3D9 /* BrowserApp */,
 				FC3719691D83BC140098B3D9 /* BrowserAppTests */,
 				FC3719741D83BC150098B3D9 /* BrowserAppUITests */,
@@ -402,6 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BrowserApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserApp;
@@ -413,6 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BrowserApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserApp;
@@ -485,6 +545,7 @@
 				FC37197C1D83BC150098B3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC37197D1D83BC150098B3D9 /* Build configuration list for PBXNativeTarget "BrowserAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +554,7 @@
 				FC37197F1D83BC150098B3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3719801D83BC150098B3D9 /* Build configuration list for PBXNativeTarget "BrowserAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +563,7 @@
 				FC3719821D83BC150098B3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
