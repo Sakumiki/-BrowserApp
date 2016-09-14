@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MainWebViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BrowserApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="MainWebViewController" customClass="MainWebViewController" customModule="BrowserApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +16,48 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZRQ-V8-6sF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb8-aK-F7c">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem image="back" style="plain" id="fGR-Qu-4WD"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="urf-aI-Ldv"/>
+                                    <barButtonItem image="forward" style="plain" id="JSb-Ka-Yzt"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="D8C-LE-zAM"/>
+                                    <barButtonItem image="upload" id="ugw-tC-7KV"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xuo-yZ-WYC"/>
+                                    <barButtonItem image="bookmarks" style="plain" id="GRz-ha-Syp"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Ss9-mM-glW"/>
+                                    <barButtonItem image="dot" id="SYb-5f-R3p"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ZRQ-V8-6sF" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="6bh-b1-RTG"/>
+                            <constraint firstItem="ZRQ-V8-6sF" firstAttribute="leading" secondItem="Pb8-aK-F7c" secondAttribute="leading" id="74D-tm-odc"/>
+                            <constraint firstAttribute="bottom" secondItem="Pb8-aK-F7c" secondAttribute="bottom" id="GcS-XI-Nr1"/>
+                            <constraint firstItem="Pb8-aK-F7c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Kt6-p7-XOU"/>
+                            <constraint firstItem="Pb8-aK-F7c" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="WYL-Tv-h9O"/>
+                            <constraint firstItem="Pb8-aK-F7c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hUD-xy-Ve8"/>
+                            <constraint firstItem="ZRQ-V8-6sF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mas-ed-lRt"/>
+                            <constraint firstItem="ZRQ-V8-6sF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zdj-67-qMG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="336.5" y="353.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="25" height="25"/>
+        <image name="bookmarks" width="20" height="20"/>
+        <image name="dot" width="22" height="6"/>
+        <image name="forward" width="25" height="25"/>
+        <image name="upload" width="25" height="25"/>
+    </resources>
 </document>

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0F554A0F345EB959B236292C /* Pods_BrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EF1E03B113ACD1A1A6B08D /* Pods_BrowserApp.framework */; };
 		DD12E9D18E61842F9B584B91 /* Pods_BrowserAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9E2DD95F55E101F17889B2 /* Pods_BrowserAppTests.framework */; };
-		FC1C3D061D844FE400C6F778 /* AsyncKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFC1D844FE400C6F778 /* AsyncKit.framework */; };
 		FC1C3D071D844FE400C6F778 /* BWWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFD1D844FE400C6F778 /* BWWalkthrough.framework */; };
 		FC1C3D081D844FE400C6F778 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFE1D844FE400C6F778 /* DZNEmptyDataSet.framework */; };
 		FC1C3D091D844FE400C6F778 /* KCFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFF1D844FE400C6F778 /* KCFloatingActionButton.framework */; };
@@ -25,16 +24,14 @@
 		FC21E3721D89385200858665 /* LINEActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3661D89385100858665 /* LINEActivity.framework */; };
 		FC21E3731D89385200858665 /* PocketAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3671D89385100858665 /* PocketAPI.framework */; };
 		FC21E3741D89385200858665 /* Pods_BrowserAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3681D89385100858665 /* Pods_BrowserAppTests.framework */; };
-		FC21E3751D89385200858665 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3691D89385100858665 /* RxBlocking.framework */; };
 		FC21E3761D89385200858665 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36A1D89385100858665 /* RxCocoa.framework */; };
 		FC21E3771D89385200858665 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36B1D89385100858665 /* RxRealm.framework */; };
 		FC21E3781D89385200858665 /* RxSegue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36C1D89385100858665 /* RxSegue.framework */; };
 		FC21E3791D89385200858665 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36D1D89385100858665 /* RxSwift.framework */; };
-		FC21E37A1D89385200858665 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36E1D89385100858665 /* RxTests.framework */; };
 		FC21E37B1D89385200858665 /* RxWebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36F1D89385200858665 /* RxWebKit.framework */; };
 		FC21E37C1D89385200858665 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3701D89385200858665 /* SSKeychain.framework */; };
 		FC3719561D83BC140098B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719551D83BC140098B3D9 /* AppDelegate.swift */; };
-		FC3719581D83BC140098B3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719571D83BC140098B3D9 /* ViewController.swift */; };
+		FC3719581D83BC140098B3D9 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719571D83BC140098B3D9 /* MainWebViewController.swift */; };
 		FC37195B1D83BC140098B3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3719591D83BC140098B3D9 /* Main.storyboard */; };
 		FC37195D1D83BC140098B3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC37195C1D83BC140098B3D9 /* Assets.xcassets */; };
 		FC3719601D83BC140098B3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC37195E1D83BC140098B3D9 /* LaunchScreen.storyboard */; };
@@ -92,7 +89,7 @@
 		FC21E3701D89385200858665 /* SSKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSKeychain.framework; path = "Pods/../build/Debug-iphoneos/SSKeychain.framework"; sourceTree = "<group>"; };
 		FC3719521D83BC140098B3D9 /* BrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3719551D83BC140098B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC3719571D83BC140098B3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC3719571D83BC140098B3D9 /* MainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
 		FC37195A1D83BC140098B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC37195C1D83BC140098B3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC37195F1D83BC140098B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,17 +111,14 @@
 				FC21E3721D89385200858665 /* LINEActivity.framework in Frameworks */,
 				FC21E3731D89385200858665 /* PocketAPI.framework in Frameworks */,
 				FC21E3741D89385200858665 /* Pods_BrowserAppTests.framework in Frameworks */,
-				FC21E3751D89385200858665 /* RxBlocking.framework in Frameworks */,
 				FC21E3761D89385200858665 /* RxCocoa.framework in Frameworks */,
 				FC21E3771D89385200858665 /* RxRealm.framework in Frameworks */,
 				FC21E3781D89385200858665 /* RxSegue.framework in Frameworks */,
 				FC21E3791D89385200858665 /* RxSwift.framework in Frameworks */,
-				FC21E37A1D89385200858665 /* RxTests.framework in Frameworks */,
 				FC21E37B1D89385200858665 /* RxWebKit.framework in Frameworks */,
 				FC21E37C1D89385200858665 /* SSKeychain.framework in Frameworks */,
 				FC1C3D131D844FFC00C6F778 /* Foundation.framework in Frameworks */,
 				FC1C3D111D844FEE00C6F778 /* UIKit.framework in Frameworks */,
-				FC1C3D061D844FE400C6F778 /* AsyncKit.framework in Frameworks */,
 				FC1C3D071D844FE400C6F778 /* BWWalkthrough.framework in Frameworks */,
 				FC1C3D081D844FE400C6F778 /* DZNEmptyDataSet.framework in Frameworks */,
 				FC1C3D091D844FE400C6F778 /* KCFloatingActionButton.framework in Frameworks */,
@@ -226,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3719551D83BC140098B3D9 /* AppDelegate.swift */,
-				FC3719571D83BC140098B3D9 /* ViewController.swift */,
+				FC3719571D83BC140098B3D9 /* MainWebViewController.swift */,
 				FC3719591D83BC140098B3D9 /* Main.storyboard */,
 				FC37195C1D83BC140098B3D9 /* Assets.xcassets */,
 				FC37195E1D83BC140098B3D9 /* LaunchScreen.storyboard */,
@@ -486,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3719581D83BC140098B3D9 /* ViewController.swift in Sources */,
+				FC3719581D83BC140098B3D9 /* MainWebViewController.swift in Sources */,
 				FC3719561D83BC140098B3D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
