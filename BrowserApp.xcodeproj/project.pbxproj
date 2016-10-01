@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F554A0F345EB959B236292C /* Pods_BrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EF1E03B113ACD1A1A6B08D /* Pods_BrowserApp.framework */; };
 		DD12E9D18E61842F9B584B91 /* Pods_BrowserAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9E2DD95F55E101F17889B2 /* Pods_BrowserAppTests.framework */; };
 		FC1C3D071D844FE400C6F778 /* BWWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFD1D844FE400C6F778 /* BWWalkthrough.framework */; };
 		FC1C3D081D844FE400C6F778 /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C3CFE1D844FE400C6F778 /* DZNEmptyDataSet.framework */; };
@@ -26,9 +25,7 @@
 		FC21E3741D89385200858665 /* Pods_BrowserAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3681D89385100858665 /* Pods_BrowserAppTests.framework */; };
 		FC21E3761D89385200858665 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36A1D89385100858665 /* RxCocoa.framework */; };
 		FC21E3771D89385200858665 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36B1D89385100858665 /* RxRealm.framework */; };
-		FC21E3781D89385200858665 /* RxSegue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36C1D89385100858665 /* RxSegue.framework */; };
 		FC21E3791D89385200858665 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36D1D89385100858665 /* RxSwift.framework */; };
-		FC21E37B1D89385200858665 /* RxWebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E36F1D89385200858665 /* RxWebKit.framework */; };
 		FC21E37C1D89385200858665 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21E3701D89385200858665 /* SSKeychain.framework */; };
 		FC3719561D83BC140098B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719551D83BC140098B3D9 /* AppDelegate.swift */; };
 		FC3719581D83BC140098B3D9 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719571D83BC140098B3D9 /* MainWebViewController.swift */; };
@@ -37,6 +34,11 @@
 		FC3719601D83BC140098B3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC37195E1D83BC140098B3D9 /* LaunchScreen.storyboard */; };
 		FC37196B1D83BC140098B3D9 /* BrowserAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37196A1D83BC140098B3D9 /* BrowserAppTests.swift */; };
 		FC3719761D83BC150098B3D9 /* BrowserAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3719751D83BC150098B3D9 /* BrowserAppUITests.swift */; };
+		FC529E661D8ADC1600316987 /* SellectTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC529E651D8ADC1600316987 /* SellectTabView.xib */; };
+		FC529E681D8ADEFB00316987 /* SellectTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529E671D8ADEFB00316987 /* SellectTabView.swift */; };
+		FC64164D1D8A9255005E8CF4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC64164C1D8A9255005E8CF4 /* WebKit.framework */; };
+		FC65E2291D8BFDAF0095AD5F /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65E2281D8BFDAF0095AD5F /* TabViewController.swift */; };
+		FCB7CA491D9F82BC00FA7980 /* Rx+WebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7CA481D9F82BC00FA7980 /* Rx+WebKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,14 @@
 		FC3719711D83BC150098B3D9 /* BrowserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3719751D83BC150098B3D9 /* BrowserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserAppUITests.swift; sourceTree = "<group>"; };
 		FC3719771D83BC150098B3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC529E5D1D8AD36500316987 /* BrowserApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowserApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC529E651D8ADC1600316987 /* SellectTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SellectTabView.xib; sourceTree = "<group>"; };
+		FC529E671D8ADEFB00316987 /* SellectTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellectTabView.swift; sourceTree = "<group>"; };
+		FC64164C1D8A9255005E8CF4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FC65E2281D8BFDAF0095AD5F /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		FCB7CA461D9F82BC00FA7980 /* RxWebKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebKit.h; sourceTree = "<group>"; };
+		FCB7CA481D9F82BC00FA7980 /* Rx+WebKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rx+WebKit.swift"; sourceTree = "<group>"; };
+		FCB7CA4A1D9F8A3100FA7980 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = "../../../Library/Developer/Xcode/DerivedData/BrowserApp-ffidharwkcshxpbcjdshajszmamk/Build/Products/Debug-iphonesimulator/RxBlocking.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +117,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC64164D1D8A9255005E8CF4 /* WebKit.framework in Frameworks */,
 				FC21E3711D89385200858665 /* Evernote_SDK_iOS.framework in Frameworks */,
 				FC21E3721D89385200858665 /* LINEActivity.framework in Frameworks */,
 				FC21E3731D89385200858665 /* PocketAPI.framework in Frameworks */,
 				FC21E3741D89385200858665 /* Pods_BrowserAppTests.framework in Frameworks */,
 				FC21E3761D89385200858665 /* RxCocoa.framework in Frameworks */,
 				FC21E3771D89385200858665 /* RxRealm.framework in Frameworks */,
-				FC21E3781D89385200858665 /* RxSegue.framework in Frameworks */,
 				FC21E3791D89385200858665 /* RxSwift.framework in Frameworks */,
-				FC21E37B1D89385200858665 /* RxWebKit.framework in Frameworks */,
 				FC21E37C1D89385200858665 /* SSKeychain.framework in Frameworks */,
 				FC1C3D131D844FFC00C6F778 /* Foundation.framework in Frameworks */,
 				FC1C3D111D844FEE00C6F778 /* UIKit.framework in Frameworks */,
@@ -128,7 +137,6 @@
 				FC1C3D0D1D844FE400C6F778 /* RealmSwift.framework in Frameworks */,
 				FC1C3D0E1D844FE400C6F778 /* SnapKit.framework in Frameworks */,
 				FC1C3D0F1D844FE400C6F778 /* Spring.framework in Frameworks */,
-				0F554A0F345EB959B236292C /* Pods_BrowserApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +172,8 @@
 		E1C0AA94F09645FC5D5EAF70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCB7CA4A1D9F8A3100FA7980 /* RxBlocking.framework */,
+				FC64164C1D8A9255005E8CF4 /* WebKit.framework */,
 				FC21E3651D89385100858665 /* Evernote_SDK_iOS.framework */,
 				FC21E3661D89385100858665 /* LINEActivity.framework */,
 				FC21E3671D89385100858665 /* PocketAPI.framework */,
@@ -197,6 +207,7 @@
 		FC3719491D83BC140098B3D9 = {
 			isa = PBXGroup;
 			children = (
+				FCB7CA451D9F828100FA7980 /* RxWebKit */,
 				FC3719541D83BC140098B3D9 /* BrowserApp */,
 				FC3719691D83BC140098B3D9 /* BrowserAppTests */,
 				FC3719741D83BC150098B3D9 /* BrowserAppUITests */,
@@ -225,6 +236,10 @@
 				FC37195C1D83BC140098B3D9 /* Assets.xcassets */,
 				FC37195E1D83BC140098B3D9 /* LaunchScreen.storyboard */,
 				FC3719611D83BC140098B3D9 /* Info.plist */,
+				FC529E5D1D8AD36500316987 /* BrowserApp-Bridging-Header.h */,
+				FC529E651D8ADC1600316987 /* SellectTabView.xib */,
+				FC529E671D8ADEFB00316987 /* SellectTabView.swift */,
+				FC65E2281D8BFDAF0095AD5F /* TabViewController.swift */,
 			);
 			path = BrowserApp;
 			sourceTree = "<group>";
@@ -245,6 +260,23 @@
 				FC3719771D83BC150098B3D9 /* Info.plist */,
 			);
 			path = BrowserAppUITests;
+			sourceTree = "<group>";
+		};
+		FCB7CA451D9F828100FA7980 /* RxWebKit */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7CA461D9F82BC00FA7980 /* RxWebKit.h */,
+				FCB7CA471D9F82BC00FA7980 /* Sources */,
+			);
+			name = RxWebKit;
+			sourceTree = "<group>";
+		};
+		FCB7CA471D9F82BC00FA7980 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7CA481D9F82BC00FA7980 /* Rx+WebKit.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,15 +354,18 @@
 					FC3719511D83BC140098B3D9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5JRU9J2FJC;
+						LastSwiftMigration = 0800;
 					};
 					FC3719651D83BC140098B3D9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5JRU9J2FJC;
+						LastSwiftMigration = 0800;
 						TestTargetID = FC3719511D83BC140098B3D9;
 					};
 					FC3719701D83BC140098B3D9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5JRU9J2FJC;
+						LastSwiftMigration = 0800;
 						TestTargetID = FC3719511D83BC140098B3D9;
 					};
 				};
@@ -361,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3719601D83BC140098B3D9 /* LaunchScreen.storyboard in Resources */,
+				FC529E661D8ADC1600316987 /* SellectTabView.xib in Resources */,
 				FC37195D1D83BC140098B3D9 /* Assets.xcassets in Resources */,
 				FC37195B1D83BC140098B3D9 /* Main.storyboard in Resources */,
 			);
@@ -480,6 +516,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC65E2291D8BFDAF0095AD5F /* TabViewController.swift in Sources */,
+				FC529E681D8ADEFB00316987 /* SellectTabView.swift in Sources */,
+				FCB7CA491D9F82BC00FA7980 /* Rx+WebKit.swift in Sources */,
 				FC3719581D83BC140098B3D9 /* MainWebViewController.swift in Sources */,
 				FC3719561D83BC140098B3D9 /* AppDelegate.swift in Sources */,
 			);
@@ -624,14 +663,20 @@
 			baseConfigurationReference = 2CD171F130E432411A8F5F77 /* Pods-BrowserApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = BrowserApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowserApp/BrowserApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -640,14 +685,19 @@
 			baseConfigurationReference = 6707A75EB2AA6B385E556F52 /* Pods-BrowserApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = BrowserApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowserApp/BrowserApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -660,6 +710,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrowserApp.app/BrowserApp";
 			};
 			name = Debug;
@@ -673,6 +724,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrowserApp.app/BrowserApp";
 			};
 			name = Release;
@@ -684,6 +736,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BrowserApp;
 			};
 			name = Debug;
@@ -695,6 +748,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BrowserAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BrowserApp;
 			};
 			name = Release;
